@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width" />
+        
+        <title>This Week's Meal Plan Calculator</title>
+    </head>
+    <body>
+        <header>
+            <h1>This Week's Meal Plan Calculator</h1>    
+        </header>
+        <nav>
+            <a href="index.html">Back</a>
+        </nav>
+        <form id="inputform">
+            Weekly Budget($)<input type="text" name="budget"><br>
+            Protein Needs per day(g)<input type="text" name="protein"><br>
+            Calorie Needs per day:<input type="text" name="calories"><br>
+            Number of Meals:<input type="text" name="meals" max=6><br>
+            <input id="displayresults" type="submit"  value="Generate Meal Plan"> 
+        </form><br>
+        <button id="displaybutton">Display</button>
+
+        <div id="output"></div>
+
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>
